@@ -1,0 +1,11 @@
+<mat-toolbar class="Nav-bar">
+    <span class="title">Dietary Fiber</span>
+    <ul>
+        <li><a (click)="adminhome()">Home</a></li>
+        <li><a (click)="addproduct()">Addproduct</a></li>
+        <li><a (click)="addresponse()">Addresponse</a></li>
+        <li><button mat-icon-button (click)="logout()"> <mat-icon>logout</mat-icon> Logout</button></li>
+    </ul>
+    <!-- routerLink="/Dietplan" -->
+</mat-toolbar>
+<router-outlet></router-outlet>

@@ -1,0 +1,29 @@
+.custom-card {
+    /* Add your custom styles here */
+    background-color: #f5f107;
+    padding: 10px;
+  }
+  
+  .custom-card mat-card-content {
+    /* Styles for the card content */
+    padding: 0;
+  }
+  
+  .custom-card table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .custom-card table tr {
+    background-color: #f5f107;
+  }
+  
+  
+  .custom-card table td:first-child {
+    font-weight: bold;
+  }
+  
+  .custom-card table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  

@@ -1,0 +1,50 @@
+<div id="form">
+  <h2 class="producttitle">Enter Product Details</h2>
+  <table class="formtable">
+    <tr>
+      <td class="name">Name:</td>
+      <td><input class="input" type="text" [(ngModel)]="name" placeholder="Enter the name of the product"></td>
+    </tr>
+    <tr>
+      <td class="name">Type:</td>
+      <td>
+        <select class="input" [(ngModel)]="type">
+          <option value="Fruits">Fruits</option>
+          <option value="Salads">Salads</option>
+          <option value="Vegetables">Vegetables</option>
+          <option value="Juices">Juices</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td class="name">Image:</td>
+      <td><input class="input" type="text" [(ngModel)]="image" placeholder="Enter the image name of the product"></td>
+    </tr>
+    <tr>
+      <td class="name">Carbohydrates:</td>
+      <td><input class="input" type="text" [(ngModel)]="carbohydrates" placeholder="Enter the carbohydrates"></td>
+    </tr>
+    <tr>
+      <td class="name">Proteins:</td>
+      <td><input class="input" type="text" [(ngModel)]="proteins" placeholder="Enter the proteins"></td>
+    </tr>
+    <tr>
+      <td class="name">Carbs:</td>
+      <td><input class="input" type="text" [(ngModel)]="carbs" placeholder="Enter the carbs"></td>
+    </tr>
+    <tr>
+      <td class="name">Dietary Fiber:</td>
+      <td><input class="input" type="text" [(ngModel)]="dietaryfiber" placeholder="Enter the dietaryfiber"></td>
+    </tr>
+    <tr>
+      <td class="name">Fats:</td>
+      <td><input class="input" type="text" [(ngModel)]="fats" placeholder="Enter the fats"></td>
+    </tr>
+  </table>
+  <div class="alert alert-info" *ngIf="errors.length>0">
+    <ul>
+      <li *ngFor="let x of errors">{{x}}</li>
+    </ul>
+  </div>
+  <div style="margin-left: 140px;"><button class="button1" (click)="submit()">Add Product</button></div>
+</div>

@@ -1,0 +1,40 @@
+.example-container {
+    padding: 20px;
+    border: 1px solid #0e0aee;
+    width: 50%; /* Adjust the width as needed */
+    background-color: white;
+  }
+  
+  .example-list {
+    min-height: 100px;
+    border: 1px solid #0e0aee;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .example-box {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid #0e0aee;
+    margin: 5px;
+    background-color: #0bd5eb;
+  }
+  
+  .item-details {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  .result {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #19d5cc;
+    background-color: #17e9de;
+  }
+  
+  .container-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  

@@ -1,0 +1,43 @@
+.service-box{
+    float: left;
+    width: 220px;
+    height: 220px;
+    box-sizing: border-box;
+    margin: 30px;
+    border-radius: 5px;
+    
+}
+
+.image-holder {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-holder img {
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+
+  }
+  
+
+.image-holder img{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.text{
+    height: 20%;
+    text-align: center;
+    background-color: rgb(8, 243, 243);
+    border-radius: 5px;
+    color: hwb(0 4% 96%);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    padding-top: 15px;
+    box-sizing: border-box;
+}

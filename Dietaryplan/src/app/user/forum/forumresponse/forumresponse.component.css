@@ -1,0 +1,31 @@
+/* Center the form and button */
+mat-form-field, button {
+    display: flex;
+  justify-content: center;
+ align-items: center;
+    }
+    
+    /* Style the input field */
+    mat-form-field {
+     width: 80%;
+    margin-bottom: 20px;
+    }
+    
+    /* Style the submit button */
+    button.b1 {
+  margin-left: 20px;
+    }
+    
+    /* Style the suggestion responses */
+    mat-card {
+  margin-bottom: 10px;
+   background-color: #f5f5f5;
+    border-radius: 5px;
+    }
+    
+    mat-card-content {
+    padding: 10px;
+     font-size: 16px;
+ font-family: Arial, sans-serif;
+    }
+    

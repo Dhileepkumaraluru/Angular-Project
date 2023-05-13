@@ -1,0 +1,12 @@
+<h2 [style.color]="'darkgray'" [style.padding]="'20px'">
+
+        Our Customer Feedbacks <button mat-button (click)="openDialog()">Give Your Feedback</button></h2>
+    
+    
+    
+    
+    <app-feedback-box
+    
+    *ngFor="let x of feedbacks"
+    
+     [feedback]="x"></app-feedback-box>

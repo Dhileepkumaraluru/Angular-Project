@@ -1,0 +1,20 @@
+.searchbar {
+  display: inline-block;
+  width: 200px;
+  vertical-align: middle;
+  margin-left: 600px;
+}
+.container {
+  float:right;
+  text-align: left; 
+}
+#wrapper{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    background: linear-gradient(to right, #f404d4, #8804f4);
+
+
+  }
+  

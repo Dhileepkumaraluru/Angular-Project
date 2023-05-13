@@ -1,0 +1,41 @@
+/* Style for the form field */
+mat-form-field {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the input field inside the form field */
+  mat-form-field input {
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    width: 100%;
+  }
+  
+  /* Style for the submit button */
+  .b1 {
+    background-color: #08d1f0;
+    color: #0b0b0b;
+    margin-left: 550px;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .b1:hover {
+    background-color: #08f4ec;
+  }
+  
+  /* Style for the form card */
+  app-formcard {
+    display: block;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  

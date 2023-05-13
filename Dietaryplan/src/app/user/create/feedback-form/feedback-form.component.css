@@ -1,0 +1,73 @@
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 600px;
+    background-color: #09f3db;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+  }
+  
+  th {
+    padding: 10px;
+    background-color: #f2f2f2;
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  td {
+    padding: 10px;
+    font-size: 16px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  td input[type="text"], td textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+  }
+  
+  td input[type="text"]:focus, td textarea:focus {
+    outline: none;
+    border: 2px solid #007bff;
+  }
+  
+  td div {
+    margin-top: 5px;
+    color: red;
+    font-size: 14px;
+  }
+  
+  button[type="submit"] {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0062cc;
+  }
+  
+  button[type="submit"]:disabled {
+    background-color: #dddddd;
+    color: #aaa;
+    cursor: not-allowed;
+  }
+  

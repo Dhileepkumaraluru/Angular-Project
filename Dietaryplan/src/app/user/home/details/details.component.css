@@ -1,0 +1,54 @@
+.nutrition-table {
+    width: 50%;
+    border-collapse: collapse;
+  }
+  
+  .nutrition-table td {
+    border: 2px solid black;
+    padding: 36.4px;
+    text-align: center;
+  }
+  
+  .nutrition-table th {
+    background-color: #08f4cd;
+    border: 2px solid black;
+    padding: 8px;
+    text-align: center;
+  }
+  .details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    background-color: #08f4cd;
+    font-size: 20px; /* Adjust the font size as desired */
+  }
+  
+  
+  .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 5;
+  }
+  
+  .image img {
+    max-width: 350px;
+    height:350px;
+    border-radius: 15px;
+  }
+  
+  .details .content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .details .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ 

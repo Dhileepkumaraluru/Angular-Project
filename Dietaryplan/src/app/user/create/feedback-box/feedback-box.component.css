@@ -1,0 +1,23 @@
+.example-card {
+    width: 400px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .example-card .txt {
+    text-align: center;
+  }
+  
+  .example-card .par {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
+  .example-card .tp {
+    font-size: 16px;
+    color: rgb(70, 7, 244);
+    margin-top: 20px;
+  }
+  
